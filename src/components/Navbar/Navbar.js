@@ -11,6 +11,7 @@ import ColorModal from "./ColorModal";
 import Routes from "./Routes";
 
 import PersonalData from "../../Data/PersonalData";
+import APLOGO from "../../../src/components/asset/svg/AP_Logo.svg"
 
 const Navbar = () => {
 
@@ -75,9 +76,11 @@ const Navbar = () => {
     return (
         <div className="main">
             <div className="navbar" style={{ backgroundColor: bgColor }}>
-                <div className="logoContainer">
-                    <div id="logo">
-                        {PersonalData.firstName}&nbsp;&nbsp;{PersonalData.lastName}
+            <div className="logoContainer">
+                    <div id="logo" className="APlogomain">
+                        <div><img src={APLOGO} alt="" style={{width:"50px"}}/></div>
+                        <div>{PersonalData.firstName}&nbsp;&nbsp;{PersonalData.lastName}</div>
+                        {/* {PersonalData.firstName}&nbsp;&nbsp;{PersonalData.lastName} */}
                     </div>
                 </div>
                 <div className="navsContainer" style={{ color: nonThemeColor }}>

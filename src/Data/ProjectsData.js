@@ -26,6 +26,13 @@ const DUMMY_PROJECTS=[
         sourceLink:'https://ahac.orderos.dev/home',
         livelink:"https://d4.eatos.dev/#/account/login",
         lastUpdated:'Jan 2024 - Mar 2024'
+    },
+    {
+        projectTitle:'Colocio',
+        description: 'I have been working on this project for four months. The main aim of this project is to create posts and ads for various social media platforms. The project is developed using Svelte.js',
+        sourceLink:'https://colocio-twenty-git-development-aenon.vercel.app/',
+        livelink:"https://colocio-twenty-git-development-aenon.vercel.app/",
+        lastUpdated:'April 2024 - Continue'
     }
 ];
 const ProjectsData={DUMMY_PROJECTS};

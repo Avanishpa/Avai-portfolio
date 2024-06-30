@@ -266,3 +266,8 @@
 		opacity: 1;
 	}
 }
+.APlogomain{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
