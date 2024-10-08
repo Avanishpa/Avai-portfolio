@@ -70,6 +70,13 @@ const ContactForm = (props) => {
             message:enteredMessage,
         }
         finishEnteringHandler();
+        console.log(message)
+
+        // const whatsappUrl = `https://wa.me/<PhoneNumberIncludingCountryCode>?text=${encodeURIComponent(message)}`;
+
+        const whatsappUrl =  `https://wa.me/7041217511?text=${encodeURIComponent(message)}`
+    // Open WhatsApp with the pre-filled message
+        window.open(whatsappUrl, "_blank");
         // sendMessageHanlder(message);
     }
     
